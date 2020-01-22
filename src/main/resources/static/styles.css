@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+ color:darkgray ;
+ text-decoration: none;
+}
+.menu a {
+    color:burlywood;
+    border: 2px solid white;
+    background-color: black;
+    padding: 0 175px;
+    font-size: 20px;
+
+}
+
+.header {
+    background-color: rgb(155, 11, 11);
+    overflow: auto;
+    color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 2px;
+}
+
+.banner {
+
+    width: 100%;
+
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.products div {
+    width: 30%;
+    text-align: center;
+}
+
+.products img {
+    width: 45%;
+    border-radius: 15px;
+}
+
+input {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 25px;
+}
+
+button {
+    margin-left: 25%;
+}
